@@ -321,6 +321,8 @@ body {
   line-height: 24px;
   text-decoration: none;
   color: #006dfe;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 425px) {
