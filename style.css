@@ -210,7 +210,6 @@ body {
   }
 }
 
-
 .benefits__text {
   padding: 93px 0 120px 99px;
   color: #102746;
@@ -318,7 +317,6 @@ body {
   }
 }
 
-
 .inspired__info {
   font-weight: 500;
   font-style: normal;
@@ -358,7 +356,6 @@ body {
     padding-top: 15px;
   }
 }
-
 
 .inspired__photos {
   display: grid;
@@ -535,7 +532,6 @@ body {
   }
 }
 
-
 .prefecture__link {
   max-width: 203px;
 }
@@ -603,7 +599,6 @@ body {
   }
 }
 
-
 .feature__img {
   object-fit: cover;
   width: 100%;
@@ -635,7 +630,6 @@ body {
   }
 }
 
-
 .places__title {
   margin: 0 0 54px;
 }
@@ -663,7 +657,6 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
 
 .places__card {
   display: flex;
@@ -808,7 +801,6 @@ body {
   }
 }
 
-
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -829,7 +821,6 @@ body {
     flex-direction: column;
   }
 }
-
 
 @media screen and (max-width: 970px) {
   .footer__container {
@@ -869,7 +860,6 @@ body {
     line-height: 20px;
   }
 }
-
 
 .footer__text:hover {
   opacity: 0.6;
