@@ -192,10 +192,12 @@
         <div class="places__cards">
           <div class="places__card">
             <div class="places__container">
-              <img src="./images/card(1).jpg" alt="" class="places__img" />
+              <img src="./images/card(1).jpg" alt="NAGOYA" class="places__img" />
               <div class="places__wrapper">
                 <h2 class="places__text">NAGOYA</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -219,7 +221,9 @@
               />
               <div class="places__wrapper">
                 <h2 class="places__text">NIIGATA</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -239,7 +243,9 @@
               <img src="./images/card(3).jpg" alt="OSAKA" class="places__img" />
               <div class="places__wrapper">
                 <h2 class="places__text">OSAKA</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -263,7 +269,9 @@
               />
               <div class="places__wrapper">
                 <h2 class="places__text">SAITAMA</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -283,7 +291,9 @@
               <img src="./images/card(5).jpg" alt="UENO" class="places__img" />
               <div class="places__wrapper">
                 <h2 class="places__text">UENO</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -307,7 +317,9 @@
               />
               <div class="places__wrapper">
                 <h2 class="places__text">SHIBUYA</h2>
-                <button class="places__like" type="button"></button>
+                <button type="button"
+                onclick="Toggle(this)"
+                class="places__like"></button>
               </div>
             </div>
             <div class="places__info">
@@ -367,5 +379,11 @@
         </div>
       </section>
     </div>
+
+    <div class="popup">
+        <img class="popup__img" src="" alt="" />
+        <p class="popup__description"></p>
+    </div>
+<script src="./app.js"></script>
   </body>
 </html>
